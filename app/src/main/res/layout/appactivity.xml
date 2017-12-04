@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/appActivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<Button
+		android:id="@+id/add"
+		android:text="@string/add"
+		android:textSize="24sp"
+		android:paddingStart="16dp"
+		android:paddingEnd="16dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginStart="16dp"
+		android:layout_marginEnd="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="64dp"/>
+
+	<Spinner
+		android:id="@+id/spinner"
+		android:spinnerMode="dropdown"
+		android:visibility="invisible"
+		android:layout_toEndOf="@id/add"
+		android:layout_alignTop="@id/add"
+		android:layout_alignBottom="@id/add"
+		android:layout_marginEnd="16dp"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</RelativeLayout>

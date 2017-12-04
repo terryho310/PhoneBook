@@ -1,0 +1,4 @@
+#Sun Nov 12 18:41:47 EST 2017
+base.0=/Users/Terry/Desktop/TH/Android/06-exercise-begin/app/build/intermediates/transforms/dexMerger/debug/7
+renamed.0=classes.dex
+file.0=/Users/Terry/Desktop/TH/Android/06-exercise-begin/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex
